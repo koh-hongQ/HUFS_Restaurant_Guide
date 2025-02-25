@@ -13,15 +13,22 @@
             color: #FFF; /* 기본 글자색은 흰색 */
         }
         h1 {
-            margin-bottom: 10px;
+            margin-bottom: 5px;
             color: #A67B56; /* 제목 색상 변경 */
+            font-size: 2em; /* 제목 크기 */
+        }
+        .subtitle-main {
+            color: #A67B56;
+            font-size: 1.5em; /* 제목보다 작게 */
+            margin-bottom: 20px;
         }
         .subtitle {
-            color: #00AFFF; /* 밝은 파란색으로 가독성 향상 */
+            color: #00AFFF; /* 밝은 파란색 */
             margin-bottom: 30px;
         }
         .subtitle2 {
-            color:  #A67B56; /* 밝은 빨간색으로 가독성 향상 */
+            color:  #A67B56; 
+            font-size: 0.5em; /* 글자 크기를 절반으로 줄임 */
         }
         .button-container {
             display: flex;
@@ -33,7 +40,7 @@
             padding: 15px 30px;
             font-size: 18px;
             color: white;
-            background-color: #A67B56; /* 버튼 색상 변경 */
+            background-color: #A67B56; /* 버튼 색상 */
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -49,18 +56,19 @@
 </head>
 <body>
     <h1>한국외대 맛집 지도</h1>
+    <p class="subtitle-main">HUFS Restaurant Guide</p>
     <hr>
     <br>
     <!-- 로고 이미지 추가 -->
     <img src="외대로고3.png" alt="한국외대 로고" class="logo" width="150">
 
-    <p class="subtitle2">본 페이지는 상업적 목적이 아님을 밝힙니다. 매번 맛집 검색하기 귀찮아서 만든 페이지입니다. </p>
-    <p class="subtitle2">맛집 선정에는 외대생들의 개인 취향이 반영되었습니다. 맛집 정보 추가 문의 환영합니다.</p>
-    
     <div class="button-container">
         <a href="https://koh-hongq.github.io/HUFS_Restaurant_Guide/%EB%A7%9B%EC%A7%91%EC%84%9C%EC%9A%B8%EC%BA%A04%ED%83%84.html" class="button">Seoul<br>Campus</a>
         <a href="https://koh-hongq.github.io/HUFS_Restaurant_Guide/%EB%A7%9B%EC%A7%91%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%BA%A06%ED%83%84.html" class="button">Global<br>Campus</a>
     </div>
+    
+    <p class="subtitle2">본 페이지는 상업적 목적이 아님을 밝힙니다. 매번 맛집 검색하기 귀찮아서 만든 페이지입니다.</p>
+    <p class="subtitle2">맛집 선정에는 외대생들의 개인 취향이 반영되었습니다. 맛집 정보 추가 문의 환영합니다.</p>
     
     <!-- 개발자 정보 버튼 추가 -->
     <div class="button-container">
@@ -68,4 +76,5 @@
     </div>
 </body>
 </html>
+
 
