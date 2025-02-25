@@ -26,29 +26,14 @@
             color:  #A67B56; 
             font-size: 0.5em; /* 글자 크기를 절반으로 줄임 */
         }
-
-        
-        .button-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
+        /* SlowMan 스타일 */
+        .developer-name {
+            font-size: 2em; /* 글자 크기 2배 */
+            color: white;
+            text-align: left; /* 왼쪽 정렬 */
+            margin-left: 20px; /* 여백 추가 */
         }
-        /* 기존 버튼 크기 유지하며 배경색과 글자색 반전 */
-        .button {
-            padding: 15px 30px;
-            font-size: 18px;
-            color: #A67B56; /* 기존 배경색을 글자색으로 */
-            background-color: white; /* 기존 글자색을 배경색으로 */
-            border: 2px solid #A67B56;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-        }
-        .button:hover {
-            background-color: #F5F5F5; /* hover 시 더 밝은 색 */
-        }
-        /* 개발자 정보 버튼은 절반 크기로 줄이면서 색 반전 */
+        /* Contact & 메인 버튼 스타일 */
         .small-button {
             padding: 7px 15px; /* 기존 크기의 절반으로 */
             font-size: 14px;
@@ -58,12 +43,11 @@
             border-radius: 5px;
             cursor: pointer;
             text-decoration: none;
+            display: inline-block; /* 버튼 정렬 */
+            margin-top: 10px;
         }
         .small-button:hover {
             background-color: #8B5E3C;
-        }
-        .logo {
-            margin-bottom: 30px;
         }
     </style>
 </head>
@@ -74,19 +58,18 @@
     
     <br>
 
-    
-<p class="h1">Developer </p>
-<p class="subtitle">SlowMan </p>
+    <p class="h1">Developer</p>
+    <!-- SlowMan (개발자명) -->
+    <p class="developer-name">▷ SlowMan</p>
     <p class="subtitle">한국외국어대학교 수학과 22학번</p>
-    <p class="subtitle">Contact : https://open.kakao.com/o/sdpf2cih</p>
-    
-    <p class="subtitle"> 맛집 데이터 수정 문의 언제든 환영합니다. </p>
-    
 
-
-
+    <!-- Contact 버튼 -->
+    <a href="https://open.kakao.com/o/sdpf2cih" class="small-button">Contact</a>
     
+    <p class="subtitle">맛집 데이터 수정 문의 언제든 환영합니다.</p>
+
+    <!-- 메인으로 가는 버튼 -->
+    <a href="https://koh-hongq.github.io/HUFS_Restaurant_Guide/%EB%A7%9B%EC%A7%91%EC%99%B8%EB%8C%80%ED%86%B5%ED%95%A93%ED%83%84.html" class="small-button">메인으로</a>
+
 </body>
 </html>
-
-
