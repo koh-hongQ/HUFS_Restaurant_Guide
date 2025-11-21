@@ -1,5 +1,5 @@
 # HUFS_Restaurant_Guide
 
-![Google Analytics](맛집지도사이트구글애널리틱스.png)
+![Google Analytics](어낼리틱스1121.png)
 
-![Everytime](맛집지도사이트에타좋아요439.png)
+![Everytime](스크랩1121.png)
